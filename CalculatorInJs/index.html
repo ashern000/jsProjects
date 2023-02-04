@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="scripts.js" defer></script>
+  <title>CalculadoraJS</title>
+</head>
+
+<body>
+  <div class="amain">
+    <div class="light">
+      <button id="btn-light" onclick="trocarDeCor()">O/I</button>
+    </div>
+    <div id="form-light">
+      <h1>Calculadora JavaScript</h1>
+      <input type="number" name="primeiroValor" id="valorUm" placeholder="Digite o primeiro valor" />
+      <label>+</label>
+      <input type="number" name="segundoValor" id="valorDois" placeholder="Digite o segundo valor" />
+      <br /><input type="button" value="Calcular" onclick="calcular()" id="btn-calcular"/>
+      <select id="selecao" onclick="sinalDeEquacao()">
+        <option value="soma">somar</option>
+        <option value="divisao">dividir</option>
+        <option value="subtracao">subtração</option>
+        <option value="multiplicacao">multiplicação</option>
+      </select>
+      <div class="resultado">
+        <p id="res"></p>
+      </div>
+
+
+
+      <div class="dolar">
+        <h1>Conversor de Dolar</h1>
+        <label>Insira a quantidade de reais que possui</label><br>
+        <input type="number" id="reais" onmouseleave="converter()">
+        <p id="res2"></p>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+</body>
+
+</html>
