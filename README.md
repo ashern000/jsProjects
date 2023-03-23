@@ -1,6 +1,8 @@
-# jsProjects  <img src="https://img.icons8.com/ios/50/null/javascript--v1.png"/>
+# jsProjects
 
-A collection of projects done in pure JavaScript <img src="https://img.icons8.com/material-sharp/24/null/source-code.png"/>
+A collection of projects done in pure JavaScript 
+
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 
 
