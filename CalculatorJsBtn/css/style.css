@@ -1,98 +1,94 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
 }
 
-.amain{
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
+.amain {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
 }
 
-.result{
-    background-color: azure;
-    height: 50px;
-    width: auto;
-    border-radius: 5px;
-    border: 3px rgb(189, 78, 189) solid ;
+.result {
+  background-color: azure;
+  height: 50px;
+  width: auto;
+  border-radius: 5px;
+  border: 3px rgb(189, 78, 189) solid;
 }
 
-.display-calc{
-    color: rgb(17, 16, 16);
-    font-size: 20px;
-    
+.display-calc {
+  color: rgb(17, 16, 16);
+  font-size: 20px;
 }
 
-table{
+table {
   text-align: center;
 }
 
-tr{
-    height: 70px;
-   
+tr {
+  height: 70px;
 }
-.numbers{
-    border-collapse: collapse;
-    border: 2px solid rgb(0, 132, 255);
-    border-radius: 5px;
-    width: 70px;
-    background-color: rgb(255, 255, 255);
-    transition: 0.3s;
- 
+.numbers {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 5px;
+  width: 70px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s;
 }
 
-.numbers:hover{
-    border-collapse: collapse;
-    border: 2px solid rgb(0, 109, 211);
-    border-radius: 5px;
-    width: 70px;
-    background-color: rgb(163, 218, 255);
-    color: white;
+.numbers:hover {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 109, 211);
+  border-radius: 5px;
+  width: 70px;
+  background-color: rgb(163, 218, 255);
+  color: white;
 }
 
-.opers{
-    border-collapse: collapse;
-    border: 2px solid rgb(0, 255, 21);
-    border-radius: 5px;
-    width: 70px;
-    background-color: rgb(255, 255, 255);   
-    transition: 0.3s;
+.opers {
+  border-collapse: collapse;
+  border: 2px solid rgb(0, 255, 21);
+  border-radius: 5px;
+  width: 70px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s;
 }
 
-.opers:hover{
-    border-collapse: collapse;
-    border: 2px solid rgb(51, 255, 68);
-    border-radius: 5px;
-    width: 70px;
-    background-color: rgb(163, 226, 162); 
+.opers:hover {
+  border-collapse: collapse;
+  border: 2px solid rgb(51, 255, 68);
+  border-radius: 5px;
+  width: 70px;
+  background-color: rgb(163, 226, 162);
 }
 
-
-#clear{
-    border-collapse: collapse;
-    border: 2px solid rgb(255, 0, 0);
-    border-radius: 5px;
-    width: 70px;
-    background-color: rgb(231, 226, 226);   
-    color: darkred;
-    font-size: 16px;
-    font-style: italic;
-    transition: 0.35s;
+#clear {
+  border-collapse: collapse;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  width: 70px;
+  background-color: rgb(231, 226, 226);
+  color: darkred;
+  font-size: 16px;
+  font-style: italic;
+  transition: 0.35s;
 }
 
-#clear:hover{
-    border-collapse: collapse;
-    border: 2px solid rgb(255, 0, 0);
-    border-radius: 5px;
-    width: 70px;
-    background-color: rgb(255, 100, 100);   
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-style: italic;
+#clear:hover {
+  border-collapse: collapse;
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  width: 70px;
+  background-color: rgb(255, 100, 100);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: italic;
 }

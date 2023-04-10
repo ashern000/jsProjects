@@ -1,116 +1,123 @@
-
-
 p {
-    color: rgb(240, 228, 228);
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+  color: rgb(240, 228, 228);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
-label{
-    font-size: 20px;
-    color: aliceblue;
+label {
+  font-size: 20px;
+  color: aliceblue;
 }
 
-.amain{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.amain {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-#form-light{
-    background: linear-gradient(to bottom, rgb(92, 92, 255), rgb(77, 77, 255), rgb(65, 65, 255));
-    padding-bottom:10px ;
-    grid-column: 2;
-    border-radius: 20px;
-    width: 100%;
-    border: 2px groove darkblue;
-    transition-duration: 0.9s;
+#form-light {
+  background: linear-gradient(
+    to bottom,
+    rgb(92, 92, 255),
+    rgb(77, 77, 255),
+    rgb(65, 65, 255)
+  );
+  padding-bottom: 10px;
+  grid-column: 2;
+  border-radius: 20px;
+  width: 100%;
+  border: 2px groove darkblue;
+  transition-duration: 0.9s;
 }
 
-#form-night{
-    background: linear-gradient(to bottom, rgb(45, 45, 161), rgb(28, 28, 97), rgb(22, 22, 90), rgb(11, 11, 66));
-    padding-bottom:10px ;
-    grid-column: 2;
-    border-radius: 20px;
-    width: 100%;
-    border: 2px groove rgb(4, 152, 197);
-    transition-duration: 0.3s;
+#form-night {
+  background: linear-gradient(
+    to bottom,
+    rgb(45, 45, 161),
+    rgb(28, 28, 97),
+    rgb(22, 22, 90),
+    rgb(11, 11, 66)
+  );
+  padding-bottom: 10px;
+  grid-column: 2;
+  border-radius: 20px;
+  width: 100%;
+  border: 2px groove rgb(4, 152, 197);
+  transition-duration: 0.3s;
 }
 
-#valorUm{
-    border-radius: 4px;
-    border:none;
+#valorUm {
+  border-radius: 4px;
+  border: none;
 }
 
-#valorDois{
-    border-radius: 4px;
-    border:none;
+#valorDois {
+  border-radius: 4px;
+  border: none;
 }
 
-#valorDois::placeholder{
-    text-align: center;
-    font-size: 13px;
-    color: rgb(50,50,90);
-    
+#valorDois::placeholder {
+  text-align: center;
+  font-size: 13px;
+  color: rgb(50, 50, 90);
 }
 
-#valorUm::placeholder{
-    text-align: center;
-    font-size: 13px;
-    color: rgb(50,50,90);
-    
+#valorUm::placeholder {
+  text-align: center;
+  font-size: 13px;
+  color: rgb(50, 50, 90);
 }
 
-.dolar{
-    margin-bottom: 4%;
+.dolar {
+  margin-bottom: 4%;
 }
 
-h1{
-    color: whitesmoke;
-    text-shadow: 1px 1px 2px black;
+h1 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
 }
 
-#res2{
-    color: rgb(240, 228, 228);
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+#res2 {
+  color: rgb(240, 228, 228);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
-#selecao{
-    color: blue;
-    font-size: 16px;
-    text-indent: 4px;
-    font-weight: 500;
-    border-radius: 8px;
-    margin-top: 2%;
-    width:120px;
+#selecao {
+  color: blue;
+  font-size: 16px;
+  text-indent: 4px;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-top: 2%;
+  width: 120px;
 }
 
-#btn-calcular{
-    border-radius: 5px;
-    border: none;
-    width: auto;
-    height: 21px;
+#btn-calcular {
+  border-radius: 5px;
+  border: none;
+  width: auto;
+  height: 21px;
 }
 
-.light{
-    display: flex;
-    justify-content: end;
-    align-items: flex-start;
+.light {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
 }
 
-#btn-light{
-    border-radius: 7px;
-    border: solid 1px rgba(0, 0, 0, 0.500);
-    color: black;
-    background-color: transparent;
+#btn-light {
+  border-radius: 7px;
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: transparent;
 }
 
-#btn-light-two{
-    border-radius: 7px;
-    border: solid 1px rgba(0, 0, 0, 0.500);
-    color: black;
-    background-color: transparent;
+#btn-light-two {
+  border-radius: 7px;
+  border: solid 1px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: transparent;
 }

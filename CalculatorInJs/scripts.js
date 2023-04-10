@@ -1,33 +1,40 @@
+/**
+ * Esta função serve para mudar o sinal da equação, apenas visual
+ */
+
 function sinalDeEquacao() {
-  section = document.querySelector("#selecao").value;
+  const section = document.querySelector("#selecao").value;
 
   if (section == "soma") {
-    let label = document.querySelector("label").innerHTML = "+";
+    let label = (document.querySelector("label").innerHTML = "+");
   }
   if (section == "divisao") {
-    let label = document.querySelector("label").innerHTML = "/";
+    let label = (document.querySelector("label").innerHTML = "/");
   }
   if (section == "subtracao") {
-    let label = document.querySelector("label").innerHTML = "-";
+    let label = (document.querySelector("label").innerHTML = "-");
   }
   if (section == "multiplicacao") {
-    let label = document.querySelector("label").innerHTML = "*";
+    let label = (document.querySelector("label").innerHTML = "*");
   }
-
 }
 
+/**
+ * Esta função realiza o calculo
+ */
+
 function calcular() {
+  let resultado = (document.querySelector("#res").innerHTML = "");
 
-  resultado = document.querySelector("#res").innerHTML = "";
+  const section = document.querySelector("#selecao").value;
 
-  var section = document.querySelector("#selecao").value;
+  const valorUm = document.getElementById("valorUm").value;
 
-  var valorUm = document.getElementById("valorUm").value;
+  const valorDois = document.querySelector("#valorDois").value;
 
-  var valorDois = document.querySelector("#valorDois").value;
-
-  if (valorDois == '' && valorUm == '') {
-    resultado = document.querySelector("#res").innerHTML = "Por favor, insira um valor!";
+  if (valorDois == "" && valorUm == "") {
+    resultado = document.querySelector("#res").innerHTML =
+      "Por favor, insira um valor!";
   }
 
   if (section == "soma") {
@@ -46,50 +53,50 @@ function calcular() {
     var result = parseInt(valorUm) * parseInt(valorDois);
   }
 
-  if (valorDois != '' && valorUm != '') {
+  if (valorDois != "" && valorUm != "") {
     resultado = document.querySelector("#res");
 
-    resultado2 = document.createTextNode(result);
+    let resultado2 = document.createTextNode(result);
 
     resultado.appendChild(resultado2);
   }
 }
 
+/**
+ * Esta função converte a quantia em dólares
+ */
 
 function converter() {
-  resultConvert = document.querySelector("#res2").innerHTML = "";
+  let resultConvert = (document.querySelector("#res2").innerHTML = "");
 
   let reais = document.querySelector("#reais").value;
 
-  conversao = reais / 5.05;
-
+  let conversao = reais / 5.05;
 
   resultConvert = document.querySelector("#res2");
 
-  resultConvert2 = document.createTextNode("Você possui " + conversao + " Dolares");
+  let resultConvert2 = document.createTextNode(
+    "Você possui " + conversao + " Dólares"
+  );
 
   resultConvert.appendChild(resultConvert2);
-
-
 }
 
-aux = 0;
+let aux = 0;
 
 function trocarDeCor() {
-
   let bgBody = document.querySelector("body");
   let form = document.querySelector("#form-light");
-  console.log("askkasdh")
   aux++;
   if (aux == 1) {
-    bgBody.setAttribute("style", "background:black;")
-    form.setAttribute("id", "form-night")
+    bgBody.setAttribute("style", "background:black;");
+    form.setAttribute("id", "form-night");
   }
 
   if (aux == 2) {
     form = document.querySelector("#form-night");
-    bgBody.setAttribute("style", "background:white;")
-    form.setAttribute("id", "form-light")
+    bgBody.setAttribute("style", "background:white;");
+    form.setAttribute("id", "form-light");
     aux = 0;
   }
 }
