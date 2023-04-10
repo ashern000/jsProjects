@@ -1,5 +1,6 @@
-var input = document.querySelector("input");
-var idTarefa = 0;
+// Select input
+
+let input = document.querySelector("input");
 
 
 input.addEventListener("keydown", function (e) {
@@ -31,6 +32,10 @@ input.addEventListener("keydown", function (e) {
         tarefas.appendChild(atividade);
     }
 });
+
+/** 
+* This function deletes tasks
+*/
 
 function excluir(){
     var tarefasAnotadas = document.querySelector("#tarefas-anotada");
